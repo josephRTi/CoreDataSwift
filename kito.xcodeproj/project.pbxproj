@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0F6C23426184F1D0089368E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C23326184F1D0089368E /* AppDelegate.swift */; };
+		A0F6C23626184F1D0089368E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C23526184F1D0089368E /* SceneDelegate.swift */; };
+		A0F6C23826184F1D0089368E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C23726184F1D0089368E /* ViewController.swift */; };
+		A0F6C23B26184F1D0089368E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F6C23926184F1D0089368E /* Main.storyboard */; };
+		A0F6C23E26184F1D0089368E /* kito.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C23C26184F1D0089368E /* kito.xcdatamodeld */; };
+		A0F6C24026184F220089368E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F6C23F26184F220089368E /* Assets.xcassets */; };
+		A0F6C24326184F220089368E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F6C24126184F220089368E /* LaunchScreen.storyboard */; };
+		A0F6C24E26184F230089368E /* kitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C24D26184F230089368E /* kitoTests.swift */; };
+		A0F6C25926184F230089368E /* kitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C25826184F230089368E /* kitoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0F6C24A26184F230089368E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0F6C22826184F1D0089368E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F6C22F26184F1D0089368E;
+			remoteInfo = kito;
+		};
+		A0F6C25526184F230089368E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0F6C22826184F1D0089368E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F6C22F26184F1D0089368E;
+			remoteInfo = kito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0F6C23026184F1D0089368E /* kito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F6C23326184F1D0089368E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0F6C23526184F1D0089368E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0F6C23726184F1D0089368E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0F6C23A26184F1D0089368E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0F6C23D26184F1D0089368E /* kito.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kito.xcdatamodel; sourceTree = "<group>"; };
+		A0F6C23F26184F220089368E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0F6C24226184F220089368E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0F6C24426184F220089368E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F6C24926184F230089368E /* kitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F6C24D26184F230089368E /* kitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitoTests.swift; sourceTree = "<group>"; };
+		A0F6C24F26184F230089368E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F6C25426184F230089368E /* kitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F6C25826184F230089368E /* kitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitoUITests.swift; sourceTree = "<group>"; };
+		A0F6C25A26184F230089368E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F6C22D26184F1D0089368E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F6C24626184F230089368E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F6C25126184F230089368E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0F6C22726184F1D0089368E = {
+			isa = PBXGroup;
+			children = (
+				A0F6C23226184F1D0089368E /* kito */,
+				A0F6C24C26184F230089368E /* kitoTests */,
+				A0F6C25726184F230089368E /* kitoUITests */,
+				A0F6C23126184F1D0089368E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F6C23126184F1D0089368E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6C23026184F1D0089368E /* kito.app */,
+				A0F6C24926184F230089368E /* kitoTests.xctest */,
+				A0F6C25426184F230089368E /* kitoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0F6C23226184F1D0089368E /* kito */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6C23326184F1D0089368E /* AppDelegate.swift */,
+				A0F6C23526184F1D0089368E /* SceneDelegate.swift */,
+				A0F6C23726184F1D0089368E /* ViewController.swift */,
+				A0F6C23926184F1D0089368E /* Main.storyboard */,
+				A0F6C23F26184F220089368E /* Assets.xcassets */,
+				A0F6C24126184F220089368E /* LaunchScreen.storyboard */,
+				A0F6C24426184F220089368E /* Info.plist */,
+				A0F6C23C26184F1D0089368E /* kito.xcdatamodeld */,
+			);
+			path = kito;
+			sourceTree = "<group>";
+		};
+		A0F6C24C26184F230089368E /* kitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6C24D26184F230089368E /* kitoTests.swift */,
+				A0F6C24F26184F230089368E /* Info.plist */,
+			);
+			path = kitoTests;
+			sourceTree = "<group>";
+		};
+		A0F6C25726184F230089368E /* kitoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6C25826184F230089368E /* kitoUITests.swift */,
+				A0F6C25A26184F230089368E /* Info.plist */,
+			);
+			path = kitoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0F6C22F26184F1D0089368E /* kito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F6C25D26184F230089368E /* Build configuration list for PBXNativeTarget "kito" */;
+			buildPhases = (
+				A0F6C22C26184F1D0089368E /* Sources */,
+				A0F6C22D26184F1D0089368E /* Frameworks */,
+				A0F6C22E26184F1D0089368E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kito;
+			productName = kito;
+			productReference = A0F6C23026184F1D0089368E /* kito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0F6C24826184F230089368E /* kitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F6C26026184F230089368E /* Build configuration list for PBXNativeTarget "kitoTests" */;
+			buildPhases = (
+				A0F6C24526184F230089368E /* Sources */,
+				A0F6C24626184F230089368E /* Frameworks */,
+				A0F6C24726184F230089368E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F6C24B26184F230089368E /* PBXTargetDependency */,
+			);
+			name = kitoTests;
+			productName = kitoTests;
+			productReference = A0F6C24926184F230089368E /* kitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0F6C25326184F230089368E /* kitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F6C26326184F230089368E /* Build configuration list for PBXNativeTarget "kitoUITests" */;
+			buildPhases = (
+				A0F6C25026184F230089368E /* Sources */,
+				A0F6C25126184F230089368E /* Frameworks */,
+				A0F6C25226184F230089368E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F6C25626184F230089368E /* PBXTargetDependency */,
+			);
+			name = kitoUITests;
+			productName = kitoUITests;
+			productReference = A0F6C25426184F230089368E /* kitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F6C22826184F1D0089368E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A0F6C22F26184F1D0089368E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A0F6C24826184F230089368E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A0F6C22F26184F1D0089368E;
+					};
+					A0F6C25326184F230089368E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A0F6C22F26184F1D0089368E;
+					};
+				};
+			};
+			buildConfigurationList = A0F6C22B26184F1D0089368E /* Build configuration list for PBXProject "kito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0F6C22726184F1D0089368E;
+			productRefGroup = A0F6C23126184F1D0089368E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F6C22F26184F1D0089368E /* kito */,
+				A0F6C24826184F230089368E /* kitoTests */,
+				A0F6C25326184F230089368E /* kitoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F6C22E26184F1D0089368E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F6C24326184F220089368E /* LaunchScreen.storyboard in Resources */,
+				A0F6C24026184F220089368E /* Assets.xcassets in Resources */,
+				A0F6C23B26184F1D0089368E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F6C24726184F230089368E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F6C25226184F230089368E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F6C22C26184F1D0089368E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F6C23E26184F1D0089368E /* kito.xcdatamodeld in Sources */,
+				A0F6C23826184F1D0089368E /* ViewController.swift in Sources */,
+				A0F6C23426184F1D0089368E /* AppDelegate.swift in Sources */,
+				A0F6C23626184F1D0089368E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F6C24526184F230089368E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F6C24E26184F230089368E /* kitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F6C25026184F230089368E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F6C25926184F230089368E /* kitoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0F6C24B26184F230089368E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0F6C22F26184F1D0089368E /* kito */;
+			targetProxy = A0F6C24A26184F230089368E /* PBXContainerItemProxy */;
+		};
+		A0F6C25626184F230089368E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0F6C22F26184F1D0089368E /* kito */;
+			targetProxy = A0F6C25526184F230089368E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0F6C23926184F1D0089368E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F6C23A26184F1D0089368E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0F6C24126184F220089368E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F6C24226184F220089368E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0F6C25B26184F230089368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0F6C25C26184F230089368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0F6C25E26184F230089368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D825DCKRRK;
+				INFOPLIST_FILE = kito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.kito";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0F6C25F26184F230089368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D825DCKRRK;
+				INFOPLIST_FILE = kito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.kito";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0F6C26126184F230089368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D825DCKRRK;
+				INFOPLIST_FILE = kitoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.kitoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kito.app/kito";
+			};
+			name = Debug;
+		};
+		A0F6C26226184F230089368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D825DCKRRK;
+				INFOPLIST_FILE = kitoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.kitoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kito.app/kito";
+			};
+			name = Release;
+		};
+		A0F6C26426184F230089368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D825DCKRRK;
+				INFOPLIST_FILE = kitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.kitoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kito;
+			};
+			name = Debug;
+		};
+		A0F6C26526184F230089368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D825DCKRRK;
+				INFOPLIST_FILE = kitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.kitoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F6C22B26184F1D0089368E /* Build configuration list for PBXProject "kito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F6C25B26184F230089368E /* Debug */,
+				A0F6C25C26184F230089368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F6C25D26184F230089368E /* Build configuration list for PBXNativeTarget "kito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F6C25E26184F230089368E /* Debug */,
+				A0F6C25F26184F230089368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F6C26026184F230089368E /* Build configuration list for PBXNativeTarget "kitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F6C26126184F230089368E /* Debug */,
+				A0F6C26226184F230089368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F6C26326184F230089368E /* Build configuration list for PBXNativeTarget "kitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F6C26426184F230089368E /* Debug */,
+				A0F6C26526184F230089368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0F6C23C26184F1D0089368E /* kito.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0F6C23D26184F1D0089368E /* kito.xcdatamodel */,
+			);
+			currentVersion = A0F6C23D26184F1D0089368E /* kito.xcdatamodel */;
+			path = kito.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0F6C22826184F1D0089368E /* Project object */;
+}
