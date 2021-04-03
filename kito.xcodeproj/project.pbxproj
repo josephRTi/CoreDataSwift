@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		937EB0CAA0B801BF94F3A893 /* Pods_kito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CE14FEC4758C670D86FB06 /* Pods_kito.framework */; };
 		A0F6C23426184F1D0089368E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C23326184F1D0089368E /* AppDelegate.swift */; };
-		A0F6C23626184F1D0089368E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C23526184F1D0089368E /* SceneDelegate.swift */; };
 		A0F6C23826184F1D0089368E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C23726184F1D0089368E /* ViewController.swift */; };
-		A0F6C23B26184F1D0089368E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F6C23926184F1D0089368E /* Main.storyboard */; };
 		A0F6C23E26184F1D0089368E /* kito.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C23C26184F1D0089368E /* kito.xcdatamodeld */; };
 		A0F6C24026184F220089368E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F6C23F26184F220089368E /* Assets.xcassets */; };
-		A0F6C24326184F220089368E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F6C24126184F220089368E /* LaunchScreen.storyboard */; };
 		A0F6C24E26184F230089368E /* kitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C24D26184F230089368E /* kitoTests.swift */; };
 		A0F6C25926184F230089368E /* kitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C25826184F230089368E /* kitoUITests.swift */; };
+		A0F6C27926185B010089368E /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6C27826185B010089368E /* ContactsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43CE14FEC4758C670D86FB06 /* Pods_kito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7395EF8808A29ECE5DF18DED /* Pods-kito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kito.debug.xcconfig"; path = "Target Support Files/Pods-kito/Pods-kito.debug.xcconfig"; sourceTree = "<group>"; };
 		A0F6C23026184F1D0089368E /* kito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F6C23326184F1D0089368E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0F6C23526184F1D0089368E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A0F6C23726184F1D0089368E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A0F6C23A26184F1D0089368E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0F6C23D26184F1D0089368E /* kito.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kito.xcdatamodel; sourceTree = "<group>"; };
 		A0F6C23F26184F220089368E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A0F6C24226184F220089368E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0F6C24426184F220089368E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0F6C24926184F230089368E /* kitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F6C24D26184F230089368E /* kitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitoTests.swift; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		A0F6C25426184F230089368E /* kitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F6C25826184F230089368E /* kitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitoUITests.swift; sourceTree = "<group>"; };
 		A0F6C25A26184F230089368E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F6C27826185B010089368E /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
+		E9F2CE2A73279F254A7D7DAB /* Pods-kito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kito.release.xcconfig"; path = "Target Support Files/Pods-kito/Pods-kito.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937EB0CAA0B801BF94F3A893 /* Pods_kito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +86,8 @@
 				A0F6C24C26184F230089368E /* kitoTests */,
 				A0F6C25726184F230089368E /* kitoUITests */,
 				A0F6C23126184F1D0089368E /* Products */,
+				B2673EA0BEF3D75E4BBDC84D /* Pods */,
+				CF7F193F3F099C807C1451D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,11 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				A0F6C23326184F1D0089368E /* AppDelegate.swift */,
-				A0F6C23526184F1D0089368E /* SceneDelegate.swift */,
 				A0F6C23726184F1D0089368E /* ViewController.swift */,
-				A0F6C23926184F1D0089368E /* Main.storyboard */,
+				A0F6C27826185B010089368E /* ContactsVC.swift */,
 				A0F6C23F26184F220089368E /* Assets.xcassets */,
-				A0F6C24126184F220089368E /* LaunchScreen.storyboard */,
 				A0F6C24426184F220089368E /* Info.plist */,
 				A0F6C23C26184F1D0089368E /* kito.xcdatamodeld */,
 			);
@@ -131,6 +132,24 @@
 			path = kitoUITests;
 			sourceTree = "<group>";
 		};
+		B2673EA0BEF3D75E4BBDC84D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7395EF8808A29ECE5DF18DED /* Pods-kito.debug.xcconfig */,
+				E9F2CE2A73279F254A7D7DAB /* Pods-kito.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF7F193F3F099C807C1451D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43CE14FEC4758C670D86FB06 /* Pods_kito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0F6C25D26184F230089368E /* Build configuration list for PBXNativeTarget "kito" */;
 			buildPhases = (
+				ED4C036594CEC82C3B1EA1A9 /* [CP] Check Pods Manifest.lock */,
 				A0F6C22C26184F1D0089368E /* Sources */,
 				A0F6C22D26184F1D0089368E /* Frameworks */,
 				A0F6C22E26184F1D0089368E /* Resources */,
+				8CAA7EB3B5A19E216D8B9D57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F6C24326184F220089368E /* LaunchScreen.storyboard in Resources */,
 				A0F6C24026184F220089368E /* Assets.xcassets in Resources */,
-				A0F6C23B26184F1D0089368E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +275,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CAA7EB3B5A19E216D8B9D57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kito/Pods-kito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kito/Pods-kito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kito/Pods-kito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4C036594CEC82C3B1EA1A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0F6C22C26184F1D0089368E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +325,7 @@
 				A0F6C23E26184F1D0089368E /* kito.xcdatamodeld in Sources */,
 				A0F6C23826184F1D0089368E /* ViewController.swift in Sources */,
 				A0F6C23426184F1D0089368E /* AppDelegate.swift in Sources */,
-				A0F6C23626184F1D0089368E /* SceneDelegate.swift in Sources */,
+				A0F6C27926185B010089368E /* ContactsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +359,6 @@
 			targetProxy = A0F6C25526184F230089368E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A0F6C23926184F1D0089368E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0F6C23A26184F1D0089368E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A0F6C24126184F220089368E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0F6C24226184F220089368E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A0F6C25B26184F230089368E /* Debug */ = {
@@ -437,12 +479,14 @@
 		};
 		A0F6C25E26184F230089368E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7395EF8808A29ECE5DF18DED /* Pods-kito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D825DCKRRK;
 				INFOPLIST_FILE = kito/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,18 +494,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.kito";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A0F6C25F26184F230089368E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F2CE2A73279F254A7D7DAB /* Pods-kito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D825DCKRRK;
 				INFOPLIST_FILE = kito/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.kito";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
